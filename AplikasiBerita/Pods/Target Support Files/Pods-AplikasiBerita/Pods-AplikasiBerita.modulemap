@@ -1,0 +1,6 @@
+framework module Pods_AplikasiBerita {
+  umbrella header "Pods-AplikasiBerita-umbrella.h"
+
+  export *
+  module * { export * }
+}

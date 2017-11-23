@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611F34430B7D5B127E974B19 /* Pods_AplikasiBerita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F8CD196B34A4B6653A0029 /* Pods_AplikasiBerita.framework */; };
+		C474CDE41FBAA107004C50B0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C474CDE31FBAA107004C50B0 /* TableViewController.swift */; };
+		C474CDE61FBAA113004C50B0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C474CDE51FBAA113004C50B0 /* TableViewCell.swift */; };
+		C4984F821FBBFDE600A3EA53 /* DetailBeritaKategoriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4984F811FBBFDE600A3EA53 /* DetailBeritaKategoriViewController.swift */; };
+		C4AC6EA91FBACF3B003CAB17 /* KategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC6EA81FBACF3B003CAB17 /* KategoriTableViewCell.swift */; };
+		C4AC6EAB1FBACF49003CAB17 /* BeritaKategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC6EAA1FBACF49003CAB17 /* BeritaKategoriTableViewCell.swift */; };
+		C4AC6EAD1FBACF5A003CAB17 /* KategoriTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC6EAC1FBACF5A003CAB17 /* KategoriTableViewController.swift */; };
+		C4AC6EAF1FBACF69003CAB17 /* BeritaKategoriTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC6EAE1FBACF69003CAB17 /* BeritaKategoriTableViewController.swift */; };
+		C4F3038A1FBA9A3C0018E42C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F303891FBA9A3C0018E42C /* AppDelegate.swift */; };
+		C4F3038C1FBA9A3C0018E42C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3038B1FBA9A3C0018E42C /* ViewController.swift */; };
+		C4F3038F1FBA9A3C0018E42C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F3038D1FBA9A3C0018E42C /* Main.storyboard */; };
+		C4F303911FBA9A3C0018E42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F303901FBA9A3C0018E42C /* Assets.xcassets */; };
+		C4F303941FBA9A3C0018E42C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F303921FBA9A3C0018E42C /* LaunchScreen.storyboard */; };
+		C4F3039F1FBA9A3C0018E42C /* AplikasiBeritaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3039E1FBA9A3C0018E42C /* AplikasiBeritaTests.swift */; };
+		C4F303AA1FBA9A3C0018E42C /* AplikasiBeritaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F303A91FBA9A3C0018E42C /* AplikasiBeritaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4F3039B1FBA9A3C0018E42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F3037E1FBA9A3C0018E42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F303851FBA9A3C0018E42C;
+			remoteInfo = AplikasiBerita;
+		};
+		C4F303A61FBA9A3C0018E42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F3037E1FBA9A3C0018E42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F303851FBA9A3C0018E42C;
+			remoteInfo = AplikasiBerita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		851DABB86AB9453D9BB7A0F6 /* Pods-AplikasiBerita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AplikasiBerita.release.xcconfig"; path = "Pods/Target Support Files/Pods-AplikasiBerita/Pods-AplikasiBerita.release.xcconfig"; sourceTree = "<group>"; };
+		A3F8CD196B34A4B6653A0029 /* Pods_AplikasiBerita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AplikasiBerita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86C1BAB506046C9A3A026C8 /* Pods-AplikasiBerita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AplikasiBerita.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AplikasiBerita/Pods-AplikasiBerita.debug.xcconfig"; sourceTree = "<group>"; };
+		C474CDE31FBAA107004C50B0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C474CDE51FBAA113004C50B0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C4984F811FBBFDE600A3EA53 /* DetailBeritaKategoriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBeritaKategoriViewController.swift; sourceTree = "<group>"; };
+		C4AC6EA81FBACF3B003CAB17 /* KategoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriTableViewCell.swift; sourceTree = "<group>"; };
+		C4AC6EAA1FBACF49003CAB17 /* BeritaKategoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaKategoriTableViewCell.swift; sourceTree = "<group>"; };
+		C4AC6EAC1FBACF5A003CAB17 /* KategoriTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriTableViewController.swift; sourceTree = "<group>"; };
+		C4AC6EAE1FBACF69003CAB17 /* BeritaKategoriTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaKategoriTableViewController.swift; sourceTree = "<group>"; };
+		C4F303861FBA9A3C0018E42C /* AplikasiBerita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AplikasiBerita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F303891FBA9A3C0018E42C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4F3038B1FBA9A3C0018E42C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4F3038E1FBA9A3C0018E42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4F303901FBA9A3C0018E42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4F303931FBA9A3C0018E42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4F303951FBA9A3C0018E42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F3039A1FBA9A3C0018E42C /* AplikasiBeritaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplikasiBeritaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F3039E1FBA9A3C0018E42C /* AplikasiBeritaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplikasiBeritaTests.swift; sourceTree = "<group>"; };
+		C4F303A01FBA9A3C0018E42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F303A51FBA9A3C0018E42C /* AplikasiBeritaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplikasiBeritaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F303A91FBA9A3C0018E42C /* AplikasiBeritaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplikasiBeritaUITests.swift; sourceTree = "<group>"; };
+		C4F303AB1FBA9A3C0018E42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4F303831FBA9A3C0018E42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611F34430B7D5B127E974B19 /* Pods_AplikasiBerita.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F303971FBA9A3C0018E42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F303A21FBA9A3C0018E42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76EC1958F4FD336E161BD3D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3F8CD196B34A4B6653A0029 /* Pods_AplikasiBerita.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99A978D9F5338B0407F8BA86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A86C1BAB506046C9A3A026C8 /* Pods-AplikasiBerita.debug.xcconfig */,
+				851DABB86AB9453D9BB7A0F6 /* Pods-AplikasiBerita.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4F3037D1FBA9A3C0018E42C = {
+			isa = PBXGroup;
+			children = (
+				C4F303881FBA9A3C0018E42C /* AplikasiBerita */,
+				C4F3039D1FBA9A3C0018E42C /* AplikasiBeritaTests */,
+				C4F303A81FBA9A3C0018E42C /* AplikasiBeritaUITests */,
+				C4F303871FBA9A3C0018E42C /* Products */,
+				99A978D9F5338B0407F8BA86 /* Pods */,
+				76EC1958F4FD336E161BD3D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4F303871FBA9A3C0018E42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F303861FBA9A3C0018E42C /* AplikasiBerita.app */,
+				C4F3039A1FBA9A3C0018E42C /* AplikasiBeritaTests.xctest */,
+				C4F303A51FBA9A3C0018E42C /* AplikasiBeritaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F303881FBA9A3C0018E42C /* AplikasiBerita */ = {
+			isa = PBXGroup;
+			children = (
+				C4F303891FBA9A3C0018E42C /* AppDelegate.swift */,
+				C4F3038B1FBA9A3C0018E42C /* ViewController.swift */,
+				C4F3038D1FBA9A3C0018E42C /* Main.storyboard */,
+				C4F303901FBA9A3C0018E42C /* Assets.xcassets */,
+				C4F303921FBA9A3C0018E42C /* LaunchScreen.storyboard */,
+				C4F303951FBA9A3C0018E42C /* Info.plist */,
+				C474CDE31FBAA107004C50B0 /* TableViewController.swift */,
+				C474CDE51FBAA113004C50B0 /* TableViewCell.swift */,
+				C4AC6EA81FBACF3B003CAB17 /* KategoriTableViewCell.swift */,
+				C4AC6EAA1FBACF49003CAB17 /* BeritaKategoriTableViewCell.swift */,
+				C4AC6EAC1FBACF5A003CAB17 /* KategoriTableViewController.swift */,
+				C4AC6EAE1FBACF69003CAB17 /* BeritaKategoriTableViewController.swift */,
+				C4984F811FBBFDE600A3EA53 /* DetailBeritaKategoriViewController.swift */,
+			);
+			path = AplikasiBerita;
+			sourceTree = "<group>";
+		};
+		C4F3039D1FBA9A3C0018E42C /* AplikasiBeritaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F3039E1FBA9A3C0018E42C /* AplikasiBeritaTests.swift */,
+				C4F303A01FBA9A3C0018E42C /* Info.plist */,
+			);
+			path = AplikasiBeritaTests;
+			sourceTree = "<group>";
+		};
+		C4F303A81FBA9A3C0018E42C /* AplikasiBeritaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F303A91FBA9A3C0018E42C /* AplikasiBeritaUITests.swift */,
+				C4F303AB1FBA9A3C0018E42C /* Info.plist */,
+			);
+			path = AplikasiBeritaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4F303851FBA9A3C0018E42C /* AplikasiBerita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F303AE1FBA9A3C0018E42C /* Build configuration list for PBXNativeTarget "AplikasiBerita" */;
+			buildPhases = (
+				63BEA4DC31202B3524FB19AD /* [CP] Check Pods Manifest.lock */,
+				C4F303821FBA9A3C0018E42C /* Sources */,
+				C4F303831FBA9A3C0018E42C /* Frameworks */,
+				C4F303841FBA9A3C0018E42C /* Resources */,
+				417DE22FC172128268BF03F5 /* [CP] Embed Pods Frameworks */,
+				A2398A2CC4115BFEE294317C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AplikasiBerita;
+			productName = AplikasiBerita;
+			productReference = C4F303861FBA9A3C0018E42C /* AplikasiBerita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4F303991FBA9A3C0018E42C /* AplikasiBeritaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F303B11FBA9A3C0018E42C /* Build configuration list for PBXNativeTarget "AplikasiBeritaTests" */;
+			buildPhases = (
+				C4F303961FBA9A3C0018E42C /* Sources */,
+				C4F303971FBA9A3C0018E42C /* Frameworks */,
+				C4F303981FBA9A3C0018E42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F3039C1FBA9A3C0018E42C /* PBXTargetDependency */,
+			);
+			name = AplikasiBeritaTests;
+			productName = AplikasiBeritaTests;
+			productReference = C4F3039A1FBA9A3C0018E42C /* AplikasiBeritaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4F303A41FBA9A3C0018E42C /* AplikasiBeritaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F303B41FBA9A3C0018E42C /* Build configuration list for PBXNativeTarget "AplikasiBeritaUITests" */;
+			buildPhases = (
+				C4F303A11FBA9A3C0018E42C /* Sources */,
+				C4F303A21FBA9A3C0018E42C /* Frameworks */,
+				C4F303A31FBA9A3C0018E42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F303A71FBA9A3C0018E42C /* PBXTargetDependency */,
+			);
+			name = AplikasiBeritaUITests;
+			productName = AplikasiBeritaUITests;
+			productReference = C4F303A51FBA9A3C0018E42C /* AplikasiBeritaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4F3037E1FBA9A3C0018E42C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Gw;
+				TargetAttributes = {
+					C4F303851FBA9A3C0018E42C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C4F303991FBA9A3C0018E42C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4F303851FBA9A3C0018E42C;
+					};
+					C4F303A41FBA9A3C0018E42C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4F303851FBA9A3C0018E42C;
+					};
+				};
+			};
+			buildConfigurationList = C4F303811FBA9A3C0018E42C /* Build configuration list for PBXProject "AplikasiBerita" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4F3037D1FBA9A3C0018E42C;
+			productRefGroup = C4F303871FBA9A3C0018E42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F303851FBA9A3C0018E42C /* AplikasiBerita */,
+				C4F303991FBA9A3C0018E42C /* AplikasiBeritaTests */,
+				C4F303A41FBA9A3C0018E42C /* AplikasiBeritaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4F303841FBA9A3C0018E42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F303941FBA9A3C0018E42C /* LaunchScreen.storyboard in Resources */,
+				C4F303911FBA9A3C0018E42C /* Assets.xcassets in Resources */,
+				C4F3038F1FBA9A3C0018E42C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F303981FBA9A3C0018E42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F303A31FBA9A3C0018E42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		417DE22FC172128268BF03F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AplikasiBerita/Pods-AplikasiBerita-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AplikasiBerita/Pods-AplikasiBerita-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63BEA4DC31202B3524FB19AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AplikasiBerita-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2398A2CC4115BFEE294317C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AplikasiBerita/Pods-AplikasiBerita-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4F303821FBA9A3C0018E42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AC6EAD1FBACF5A003CAB17 /* KategoriTableViewController.swift in Sources */,
+				C4F3038C1FBA9A3C0018E42C /* ViewController.swift in Sources */,
+				C4AC6EA91FBACF3B003CAB17 /* KategoriTableViewCell.swift in Sources */,
+				C4AC6EAB1FBACF49003CAB17 /* BeritaKategoriTableViewCell.swift in Sources */,
+				C474CDE61FBAA113004C50B0 /* TableViewCell.swift in Sources */,
+				C474CDE41FBAA107004C50B0 /* TableViewController.swift in Sources */,
+				C4AC6EAF1FBACF69003CAB17 /* BeritaKategoriTableViewController.swift in Sources */,
+				C4F3038A1FBA9A3C0018E42C /* AppDelegate.swift in Sources */,
+				C4984F821FBBFDE600A3EA53 /* DetailBeritaKategoriViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F303961FBA9A3C0018E42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F3039F1FBA9A3C0018E42C /* AplikasiBeritaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F303A11FBA9A3C0018E42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F303AA1FBA9A3C0018E42C /* AplikasiBeritaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4F3039C1FBA9A3C0018E42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F303851FBA9A3C0018E42C /* AplikasiBerita */;
+			targetProxy = C4F3039B1FBA9A3C0018E42C /* PBXContainerItemProxy */;
+		};
+		C4F303A71FBA9A3C0018E42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F303851FBA9A3C0018E42C /* AplikasiBerita */;
+			targetProxy = C4F303A61FBA9A3C0018E42C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4F3038D1FBA9A3C0018E42C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F3038E1FBA9A3C0018E42C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4F303921FBA9A3C0018E42C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F303931FBA9A3C0018E42C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4F303AC1FBA9A3C0018E42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4F303AD1FBA9A3C0018E42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4F303AF1FBA9A3C0018E42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86C1BAB506046C9A3A026C8 /* Pods-AplikasiBerita.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiBerita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.AplikasiBerita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4F303B01FBA9A3C0018E42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851DABB86AB9453D9BB7A0F6 /* Pods-AplikasiBerita.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiBerita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.AplikasiBerita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4F303B21FBA9A3C0018E42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiBeritaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.AplikasiBeritaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AplikasiBerita.app/AplikasiBerita";
+			};
+			name = Debug;
+		};
+		C4F303B31FBA9A3C0018E42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiBeritaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.AplikasiBeritaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AplikasiBerita.app/AplikasiBerita";
+			};
+			name = Release;
+		};
+		C4F303B51FBA9A3C0018E42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiBeritaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.AplikasiBeritaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AplikasiBerita;
+			};
+			name = Debug;
+		};
+		C4F303B61FBA9A3C0018E42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AplikasiBeritaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = F.AplikasiBeritaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AplikasiBerita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4F303811FBA9A3C0018E42C /* Build configuration list for PBXProject "AplikasiBerita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F303AC1FBA9A3C0018E42C /* Debug */,
+				C4F303AD1FBA9A3C0018E42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F303AE1FBA9A3C0018E42C /* Build configuration list for PBXNativeTarget "AplikasiBerita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F303AF1FBA9A3C0018E42C /* Debug */,
+				C4F303B01FBA9A3C0018E42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F303B11FBA9A3C0018E42C /* Build configuration list for PBXNativeTarget "AplikasiBeritaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F303B21FBA9A3C0018E42C /* Debug */,
+				C4F303B31FBA9A3C0018E42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F303B41FBA9A3C0018E42C /* Build configuration list for PBXNativeTarget "AplikasiBeritaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F303B51FBA9A3C0018E42C /* Debug */,
+				C4F303B61FBA9A3C0018E42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4F3037E1FBA9A3C0018E42C /* Project object */;
+}
